@@ -1,4 +1,4 @@
-FROM node:22
+FROM node:21
 
 WORKDIR /app
 
@@ -22,4 +22,4 @@ COPY . ./
 RUN react-scripts build
 
 # the start command needs to be triple curly braces to avoid escaping special characters
-CMD ["npm", "start"]
+CMD []
